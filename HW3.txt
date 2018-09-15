@@ -1,0 +1,11 @@
+Common C++ Naming Conventions
+Choose meaningful names - explicit is better than implicit, and readability counts. There is a strong preference for clear and descriptive names, even if lengthy. 
+for arbitrary identifier names types start with capitals: MyClass
+functions and variables start with lower case: myMethod
+constants are all capital: const int PI=3.14159265358979323;
+
+Comment blocks should use //
+Use only spaces, and indent 2 spaces at a time.
+C++ ignores whitespace so the line will go on until you terminate it with a semicolon. 
+Each line of text in your code should be at most 80 characters long.
+You can insert a newline inside any token if you prepend it with a backslash
